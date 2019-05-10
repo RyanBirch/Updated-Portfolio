@@ -3,21 +3,22 @@ body {
     padding: 0;
 }
 
+nav {
+    position: fixed;
+    z-index: 2;
+}
+
 .nav-wrapper {
     background-color: #fff;
 }
 
-.welcome {
-    height: 91vh;
+#welcome {
+    height: 100vh;
     background-image: url('../images/coffee.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%; 
     background-position: center;
-}
-
-.welcome h1 {
-    margin-top: 0;
 }
 
 .welcome-text {
@@ -29,8 +30,54 @@ body {
     height: 100%;
 }
 
+#about-me {
+    margin-bottom: 10em;
+}
+
+.about-me-header {
+    text-align: center;
+}
+
+.about-me-img {
+    max-width: 35%;
+    height: auto;
+    float: left;
+}
+
+.about-me-text {
+    width: 90%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .projects-header {
     text-align: center;
+}
+
+.projects h4 {
+    font-size: 20px;
+    background-color: #4aaaa5;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+.tile {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin: 5% 13%;
+  max-width: 100%;
+  height: auto;
 }
 
 
