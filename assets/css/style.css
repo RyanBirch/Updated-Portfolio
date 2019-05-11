@@ -44,6 +44,10 @@ nav {
     margin-bottom: 7em;
 }
 
+#contact {
+    padding-bottom: 3em;
+}
+
 .contact-header {
     text-align: center;
     margin-top: 1.5em;
@@ -51,6 +55,11 @@ nav {
 
 .links {
     text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 770px) {
