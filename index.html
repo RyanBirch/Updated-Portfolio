@@ -41,46 +41,7 @@
     </div>
 
 
-    
-    <!-- <div id="projects">
-
-        <h2 class="projects-header">Here are some of my projects</h2>
-
-        
-        <a href="https://luapasivad.github.io/OneDayOffUpdate/" target="_blank">
-            <div class="tile">
-                <img src="assets/images/OneDayOff.png" height="200" width="225" alt="OneDayOff">
-                <h4>OneDayOff</h4>
-            </div>
-        </a>
-
-        
-        <a href="https://ryanbirch.github.io/GifTastic/" target="_blank">
-            <div class="tile">
-                <img src="assets/images/GifTastic.png" height="200" width="225" alt="GifTastic">
-                <h4>GifTastic</h4>
-            </div>
-        </a>
-
-        
-        <a href="https://ryanbirch.github.io/Train-Scheduler/" target="_blank">
-            <div class="tile">
-                <img src="assets/images/Train_Scheduler.png" height="200" width="225" alt="Train Scheduler">
-                <h4>Train Scheduler</h4>
-            </div>
-        </a>
-
-        
-        <a href="https://ryanbirch.github.io/Word-Guess-Game/" target="_blank">
-            <div class="tile">
-                <img src="assets/images/Hangman.png" height="200" width="225" alt="Hangman">
-                <h4>Hangman</h4>
-            </div>
-        </a>
-
-    </div>  -->
-
-
+    <!-- projects section -->
     <div class="container">
 
         <div id="projects">
@@ -151,6 +112,10 @@
         $(document).ready(function(){
             $('.sidenav').sidenav().on('click tap', 'li a', () => {
                 $('.sidenav').sidenav('close')
+            })
+
+            $('.sidenav').sidenav({
+                draggable: true
             })
         })
     </script>
