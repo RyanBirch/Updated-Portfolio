@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    min-height: 100%;
 }
 
 nav {
@@ -14,7 +15,7 @@ nav {
 
 #welcome {
     height: 100vh;
-    background-image: url('../images/coffee.jpg');
+    background-image: url('../images/coffee2.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%; 
@@ -30,8 +31,17 @@ nav {
     height: 100%;
 }
 
+#projects {
+    border-bottom: 1px solid black;
+}
+
 .projects-header {
     text-align: center;
+    margin: 1.5em 0;
+}
+
+.tile {
+    margin-bottom: 7em;
 }
 
 /* .tile {
@@ -57,6 +67,12 @@ nav {
 
 .contact-header {
     text-align: center;
+}
+
+@media only screen and (max-width: 660px) {
+    #welcome {
+        background-attachment: scroll;
+    }
 }
 
 
