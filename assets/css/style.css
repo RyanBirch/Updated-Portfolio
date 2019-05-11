@@ -44,32 +44,16 @@ nav {
     margin-bottom: 7em;
 }
 
-/* .tile {
-    position: relative;
-    display: inline-block;
-    width: 20%;
-    margin: 5% 14%;
-    text-align: center;
-}
-
-.tile h4 {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    background-color: #009cb1;
-    color: #fff;
-}
-
-.tile img  {
-    max-width: 100%;
-    height: auto;
-  } */
-
 .contact-header {
     text-align: center;
+    margin-top: 1.5em;
 }
 
-@media only screen and (max-width: 660px) {
+.links {
+    text-align: center;
+}
+
+@media only screen and (max-width: 770px) {
     #welcome {
         background-attachment: scroll;
     }
