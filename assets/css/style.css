@@ -30,54 +30,33 @@ nav {
     height: 100%;
 }
 
-#about-me {
-    margin-bottom: 10em;
-}
-
-.about-me-header {
-    text-align: center;
-}
-
-.about-me-img {
-    max-width: 35%;
-    height: auto;
-    float: left;
-}
-
-.about-me-text {
-    width: 90%;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .projects-header {
     text-align: center;
 }
 
-.projects h4 {
-    font-size: 20px;
-    background-color: #4aaaa5;
-    color: #fff;
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    z-index: 1;
-    margin-bottom: 0px;
+/* .tile {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    margin: 5% 14%;
+    text-align: center;
 }
 
-.tile {
-  display: inline-block;
-  text-align: center;
-  position: relative;
-  margin: 5% 13%;
-  max-width: 100%;
-  height: auto;
+.tile h4 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #009cb1;
+    color: #fff;
+}
+
+.tile img  {
+    max-width: 100%;
+    height: auto;
+  } */
+
+.contact-header {
+    text-align: center;
 }
 
 
