@@ -20,6 +20,7 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a class="black-text" href="#welcome">Welcome</a></li>
+                <li><a class="black-text" href="#bio">Bio</a></li>
                 <li><a class="black-text" href="#projects">Projects</a></li>
                 <li><a class="black-text" href="#contact">Contact</a></li>
             </ul>
@@ -28,6 +29,7 @@
     <!-- sidenav for mobile -->
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#bio">Bio</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
@@ -37,6 +39,16 @@
     <div id="welcome">
         <div class="welcome-text">
             <h1>Ryan Birch</h1>
+            <h5>Web developer, coffee drinker</h5>
+        </div>
+    </div>
+
+
+    <!-- bio section -->
+    <div class="container">
+        <div id="bio">
+            <h2>About me</h2>
+            <p>Web developer with experience in HTML, CSS, JavaScript, Bootstrap, Materialize, jQuery, Node.js, Express, Handlebars, MySQL, Sequelize and Firebase</p>
         </div>
     </div>
 
@@ -49,14 +61,29 @@
             <h2 class="projects-header">Here are some of my projects</h2>
     
             <div class="row center-align">
+
+                <!-- Neat -->
+                <div class="col s12 m6">
+                    <a href="https://project-neat.herokuapp.com" target="_blank">
+                        <div class="tile">
+                            <img src="assets/images/Neat.png" height="200" width="225" alt="OneDayOff">
+                            <h4 class="link-item">Neat</h4>
+                            <a href="https://github.com/clearplaid/project-2" target="_blank">
+                                <p class="link-item">Github repo</p>
+                            </a>
+                        </div>
+                    </a>
+                </div>
     
                 <!-- OneDayOff -->
                 <div class="col s12 m6">
-                    <a href="https://luapasivad.github.io/OneDayOffUpdate/" target="_blank">
+                    <a href="https://pauldavis-code.github.io/OneDayOffUpdate/" target="_blank">
                         <div class="tile">
                             <img src="assets/images/OneDayOff.png" height="200" width="225" alt="OneDayOff">
-                            <h4>OneDayOff</h4>
-                            <a href="https://github.com/luapasivad/OneDayOffUpdate" target="_blank"><p>Github repo</p></a>
+                            <h4 class="link-item">OneDayOff</h4>
+                            <a href="https://github.com/pauldavis-code/OneDayOffUpdate" target="_blank">
+                                <p class="link-item">Github repo</p>
+                            </a>
                         </div>
                     </a>
                 </div>
@@ -66,8 +93,10 @@
                     <a href="https://ryanbirch.github.io/GifTastic/" target="_blank">
                         <div class="tile">
                             <img src="assets/images/GifTastic.png" height="200" width="225" alt="GifTastic">
-                            <h4>GifTastic</h4>
-                            <a href="https://github.com/RyanBirch/GifTastic" target="_blank"><p>Github repo</p></a>
+                            <h4 class="link-item">GifTastic</h4>
+                            <a href="https://github.com/RyanBirch/GifTastic" target="_blank">
+                                <p class="link-item">Github repo</p>
+                            </a>
                         </div>
                     </a>
                 </div>
@@ -77,8 +106,10 @@
                     <a href="https://ryanbirch.github.io/Train-Scheduler/" target="_blank">
                         <div class="tile">
                             <img src="assets/images/Train_Scheduler.png" height="200" width="225" alt="Train Scheduler">
-                            <h4>Train Scheduler</h4>
-                            <a href="https://github.com/RyanBirch/Train-Scheduler" target="_blank"><p>Github repo</p></a>
+                            <h4 class="link-item">Train Scheduler</h4>
+                            <a href="https://github.com/RyanBirch/Train-Scheduler" target="_blank">
+                                <p class="link-item">Github repo</p>
+                            </a>
                         </div>
                     </a>
                 </div>
@@ -88,19 +119,10 @@
                     <a href="https://ryanbirch.github.io/Word-Guess-Game/" target="_blank">
                         <div class="tile">
                             <img src="assets/images/Hangman.png" height="200" width="225" alt="Hangman">
-                            <h4>Hangman</h4>
-                            <a href="https://github.com/RyanBirch/Word-Guess-Game" target="_blank"><p>Github repo</p></a>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- LIRI Bot -->
-                <div class="col s12 m6">
-                    <a href="https://github.com/RyanBirch/liri-node-app" target="_blank">
-                        <div class="tile">
-                            <img src="assets/images/spotify-this-song.png" height="200" width="225" alt="Hangman">
-                            <h4>LIRI Bot</h4>
-                            <a href="https://github.com/RyanBirch/liri-node-app" target="_blank"><p>Github repo</p></a>
+                            <h4 class="link-item">Hangman</h4>
+                            <a href="https://github.com/RyanBirch/Word-Guess-Game" target="_blank">
+                                <p class="link-item">Github repo</p>
+                            </a>
                         </div>
                     </a>
                 </div>
@@ -123,26 +145,26 @@
 
                 <!-- github -->
                 <a href="https://github.com/RyanBirch" target="_blank">
-                    <div class="col s12 m3 border">
+                    <div class="col s12 m3 link-item">
                         <h3>Github</h3>
                     </div>
                 </a>
                 <!-- linkedin -->
                 <a href="https://www.linkedin.com/in/ryan-birch-61926a180/" target="_blank">
-                    <div class="col s12 m3 border">
+                    <div class="col s12 m3 link-item">
                         <h3>LinkedIn</h3>
                     </div>
                 </a>
                 <!-- email -->
                 <a href="mailto: ryan.birch@gmail.com">
-                    <div class="col s12 m3 border">
-                        <h4>Email: </h4>ryan.birch@gmail.com
+                    <div class="col s12 m3 link-item">
+                        <h4 style="font-size: 5em; margin: 0;">&#9993;</h4>ryan.birch@gmail.com
                     </div>
                 </a>
                 <!-- phone -->
                 <a href="tel:321-287-2174">
-                    <div class="col s12 m3 border">
-                        <h4>Phone</h4>321-287-2174
+                    <div class="col s12 m3 link-item">
+                        <h4 style="font-size: 5em; margin: 0;">&#9743;</h4>321-287-2174
                     </div>
                 </a>
 
