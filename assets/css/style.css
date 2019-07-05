@@ -1,95 +1,124 @@
 body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
 }
 
 nav {
-    position: fixed;
-    z-index: 2;
+	position: fixed;
+	z-index: 2;
 }
 
 .nav-wrapper {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 #welcome {
-    height: 100vh;
-    background-image: url('../images/coffee2.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: center;
-    position: relative;
+	height: 100vh;
+	background-image: url('../images/coffee2.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
 }
 
 .welcome-text {
-    color: #fff;
-    text-align: center;
-    /* display: flex;
+	color: #fff;
+	text-align: center;
+	/* display: flex;
     align-items: center;
     justify-content: center; */
-    /* height: 100%; */
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    top: 30%;
+	/* height: 100%; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 40%;
 }
 
 #bio {
-    border-bottom: 1px solid black;
-    padding-bottom: 3em;
-    padding-top: 3em;
+	border-bottom: 1px solid black;
+	padding-bottom: 3em;
+	padding-top: 3em;
 }
 
 #projects {
-    border-bottom: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 3em;
+	padding-bottom: 3em;
 }
 
 .projects-header {
-    text-align: center;
-    margin: 1.5em 0;
+	text-align: center;
+	margin-bottom: 1.5em;
 }
 
-.tile {
+.project-card {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.project-links a {
+	margin-left: 1em;
+	margin-right: 1em;
+	/* text-decoration: none;
+	color: black; */
+	transition: color 0.5s;
+}
+
+.project-links a:hover {
+	color: #62c0ff;
+}
+
+/* .tile {
     margin-bottom: 7em;
     display: inline-block;
-}
+} */
 
 #contact {
-    padding-bottom: 3em;
+	padding-bottom: 3em;
+	padding-top: 3em;
+	padding-bottom: 3em;
 }
 
 .contact-header {
-    text-align: center;
-    margin-top: 1.5em;
-}
-
-.links {
-    text-align: center;
+	text-align: center;
 }
 
 .link-item {
-    color: black;
-    transition: color 0.5s;
+	color: black;
+	transition: color 0.5s;
+	text-decoration: none;
 }
 
 .link-item:hover {
-    /* color: #707070; */
-    color: #62c0ff;
+	/* color: #707070; */
+	color: #62c0ff;
+	text-decoration: none;
 }
 
 .border {
-    border: 1px solid black;
-    border-radius: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.contact-links {
+	text-align: center;
+	margin: 1.5em 0;
+	font-size: 2em;
+}
+
+.contact-links i {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 @media only screen and (max-width: 770px) {
-    #welcome {
-        background-attachment: scroll;
-    }
+	#welcome {
+		background-attachment: scroll;
+	}
 }
 
 

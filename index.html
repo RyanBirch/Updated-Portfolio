@@ -1,195 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <!-- material icons -->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Portfolio</title>
 </head>
+
 <body>
 
-    <!-- navbar -->
-    <nav class="white">
-        <div class="nav-wrapper">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a class="black-text" href="#welcome">Welcome</a></li>
-                <li><a class="black-text" href="#bio">Bio</a></li>
-                <li><a class="black-text" href="#projects">Projects</a></li>
-                <li><a class="black-text" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- sidenav for mobile -->
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="#welcome">Welcome</a></li>
-        <li><a href="#bio">Bio</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<a class="navbar-brand" href="#">Ryan Birch</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-    
-    <!-- welcome section -->
-    <div id="welcome">
-        <div class="welcome-text">
-            <h1>Ryan Birch</h1>
-            <h5>Web developer</h5>
-        </div>
-    </div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#welcome">Welcome</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#bio">Bio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-
-    <!-- bio section -->
-    <div class="container">
-        <div id="bio">
-            <h2>About me</h2>
-            <p>Full Stack web developer with with a passion for solving problems and learning new technologies. Experience in HTML, CSS, JavaScript, Bootstrap, Materialize, jQuery, Node.js, Express, Handlebars, MySQL, Sequelize and Firebase</p>
-        </div>
-    </div>
+	<!-- welcome section -->
+	<div id="welcome">
+		<div class="welcome-text">
+			<h1>Ryan Birch</h1>
+			<h5>Web developer</h5>
+		</div>
+	</div>
 
 
-    <!-- projects section -->
-    <div class="container">
+	<!-- bio section -->
+	<div class="container">
+		<div id="bio">
+			<h2>About me</h2>
+			<p>Full Stack web developer with with a passion for solving problems and learning new technologies. Experience in
+				HTML, CSS, JavaScript, Bootstrap, jQuery, Node.js, Express, Handlebars, MySQL, Sequelize and Firebase</p>
+		</div>
+	</div>
 
-        <div id="projects">
+	<!-- projects section -->
+	<div class="container">
 
-            <h2 class="projects-header">Here are some of my projects</h2>
-    
-            <div class="row center-align">
+		<div id="projects">
 
-                <!-- Neat -->
-                <div class="col s12 m6">
-                    <a href="https://project-neat.herokuapp.com" target="_blank">
-                        <div class="tile">
-                            <img src="assets/images/Neat.png" height="200" width="225" alt="OneDayOff">
-                            <h4 class="link-item">Neat</h4>
-                            <a href="https://github.com/clearplaid/project-2" target="_blank">
-                                <p class="link-item">Github repo</p>
-                            </a>
-                        </div>
-                    </a>
-                </div>
-    
-                <!-- OneDayOff -->
-                <div class="col s12 m6">
-                    <a href="https://pauldavis-code.github.io/OneDayOffUpdate/" target="_blank">
-                        <div class="tile">
-                            <img src="assets/images/OneDayOff.png" height="200" width="225" alt="OneDayOff">
-                            <h4 class="link-item">OneDayOff</h4>
-                            <a href="https://github.com/pauldavis-code/OneDayOffUpdate" target="_blank">
-                                <p class="link-item">Github repo</p>
-                            </a>
-                        </div>
-                    </a>
-                </div>
+			<h2 class="projects-header">Here are some of my projects</h2>
 
-                <!-- GifTastic -->
-                <div class="col s12 m6">
-                    <a href="https://ryanbirch.github.io/GifTastic/" target="_blank">
-                        <div class="tile">
-                            <img src="assets/images/GifTastic.png" height="200" width="225" alt="GifTastic">
-                            <h4 class="link-item">GifTastic</h4>
-                            <a href="https://github.com/RyanBirch/GifTastic" target="_blank">
-                                <p class="link-item">Github repo</p>
-                            </a>
-                        </div>
-                    </a>
-                </div>
+			<div class="row">
 
-                <!-- Train Scheduler -->
-                <div class="col s12 m6">
-                    <a href="https://ryanbirch.github.io/Train-Scheduler/" target="_blank">
-                        <div class="tile">
-                            <img src="assets/images/Train_Scheduler.png" height="200" width="225" alt="Train Scheduler">
-                            <h4 class="link-item">Train Scheduler</h4>
-                            <a href="https://github.com/RyanBirch/Train-Scheduler" target="_blank">
-                                <p class="link-item">Github repo</p>
-                            </a>
-                        </div>
-                    </a>
-                </div>
+				<!-- Neat -->
+				<div class="col-sm-12">
+					<div class="card mb-3 project-card" style="max-width: 100%;">
+						<div class="row no-gutters">
+							<div class="col-md-4">
+								<a href="https://project-neat.herokuapp.com" target="_blank"><img src="assets/images/Neat.png" class="card-img"></a>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<a href="https://project-neat.herokuapp.com" target="_blank" class="link-item"><h2 class="card-title">Neat</h2></a>
+									<p class="card-text">Cocktail recipe app. Search drink recipes, add your favorites to your profile,
+										and make custom drinks. Made with Bootstrap, Node, Express, Handlebars, MySQL, and Sequelize</p>
+									<div class="project-links">
+										<a href="https://github.com/clearplaid/project-2" target="_blank" class="link-item">Github Repo</a>
+										<a href="https://project-neat.herokuapp.com" target="_blank" class="link-item">Deployed Project</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <!-- Hangman -->
-                <div class="col s12 m6">
-                    <a href="https://ryanbirch.github.io/Word-Guess-Game/" target="_blank">
-                        <div class="tile">
-                            <img src="assets/images/Hangman.png" height="200" width="225" alt="Hangman">
-                            <h4 class="link-item">Hangman</h4>
-                            <a href="https://github.com/RyanBirch/Word-Guess-Game" target="_blank">
-                                <p class="link-item">Github repo</p>
-                            </a>
-                        </div>
-                    </a>
-                </div>
-    
-            </div> <!-- row -->
-    
-        </div> <!-- projects -->
+				<!-- OneDayOff -->
+				<div class="col-sm-12">
+						<div class="card mb-3 project-card" style="max-width: 100%;">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<a href="https://pauldavis-code.github.io/OneDayOffUpdate/" target="_blank"><img src="assets/images/OneDayOff.png" class="card-img"></a>
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<a href="https://pauldavis-code.github.io/OneDayOffUpdate/" target="_blank" class="link-item"><h2 class="card-title">OneDayOff</h2></a>
+										<p class="card-text">Search for activities in different cities using Yelp api and Google Maps api. Make day plans and save them to your profile. Browse plans made by other users. Made with HTML, CSS, Bootstrap, JavaScript, jQuery, and Firebase</p>
+										<div class="project-links">
+											<a href="https://github.com/pauldavis-code/OneDayOffUpdate" target="_blank" class="link-item">Github Repo</a>
+											<a href="https://pauldavis-code.github.io/OneDayOffUpdate/" target="_blank" class="link-item">Deployed Project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
-    </div> <!-- container -->
+				<!-- GifTastic -->
+				<div class="col-sm-12">
+						<div class="card mb-3 project-card" style="max-width: 100%;">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<a href="https://ryanbirch.github.io/GifTastic/" target="_blank"><img src="assets/images/GifTastic.png" class="card-img"></a>
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<a href="https://ryanbirch.github.io/GifTastic/" target="_blank" class="link-item"><h2 class="card-title">GifTastic</h2></a>
+										<p class="card-text">Search for gifs using the GIPHY api. Save your favorite gifs to your favorites list using local storage. Made with HTML, CSS, JavaScript, jQuery</p>
+										<div class="project-links">
+											<a href="https://github.com/RyanBirch/GifTastic" target="_blank" class="link-item">Github Repo</a>
+											<a href="https://ryanbirch.github.io/GifTastic/" target="_blank" class="link-item">Deployed Project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				<!-- Train Scheduler -->
+				<div class="col-sm-12">
+						<div class="card mb-3 project-card" style="max-width: 100%;">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<a href="https://ryanbirch.github.io/Train-Scheduler/" target="_blank"><img src="assets/images/Train_Scheduler.png" class="card-img"></a>
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<a href="https://ryanbirch.github.io/Train-Scheduler/" target="_blank" class="link-item"><h2 class="card-title">Train Scheduler</h2></a>
+										<p class="card-text">Train Schedule with live updates every minute. Enter first departure time and frequency and it will calculate next arrival time and minutes away. Made with HTML, CSS, JavaScript, Moment.js, and Firebase</p>
+										<div class="project-links">
+											<a href="https://github.com/RyanBirch/Train-Scheduler" target="_blank" class="link-item">Github Repo</a>
+											<a href="https://ryanbirch.github.io/Train-Scheduler/" target="_blank" class="link-item">Deployed Project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				<!-- Hangman -->
+				<div class="col-sm-12">
+						<div class="card mb-3 project-card" style="max-width: 100%;">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<a href="https://ryanbirch.github.io/Word-Guess-Game/" target="_blank"><img src="assets/images/Hangman.png" class="card-img"></a>
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<a href="https://ryanbirch.github.io/Word-Guess-Game/" target="_blank" class="link-item"><h2 class="card-title">Hangman</h2></a>
+										<p class="card-text">Classic Hangman game with a sports theme. Made with HTML, CSS, and JavaScript</p>
+										<div class="project-links">
+											<a href="https://github.com/RyanBirch/Word-Guess-Game" target="_blank" class="link-item">Github Repo</a>
+											<a href="https://ryanbirch.github.io/Word-Guess-Game/" target="_blank" class="link-item">Deployed Project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+			</div> <!-- row -->
+
+		</div> <!-- projects -->
+
+	</div> <!-- container -->
 
 
-    <!-- contact section -->
-    <div class="container">
+	<!-- contact section -->
+	<div class="container">
 
-        <div id="contact">
+		<div id="contact">
 
-            <h2 class="contact-header">Contact</h2>
+			<h2 class="contact-header">Contact</h2>
+	
+			<div class="row contact-links">
+	
+				<!-- github -->
+				<div class="col-12 col-md-3">
+					<a href="https://github.com/RyanBirch" target="_blank" class="link-item"><i class="fa fa-github" style="font-size: 1.75em"></i></a>
+				</div>
+	
+				<!-- linkedin -->
+				<div class="col-12 col-md-3">
+					<a href="https://www.linkedin.com/in/ryan-birch-61926a180/" target="_blank" class="link-item"><i class="fa fa-linkedin-square" style="font-size: 1.75em"></i></a>
+				</div>
+	
+				<!-- email -->
+				<div class="col-12 col-md-3">
+					<a href="mailto: ryan.birch@gmail.com" class="link-item"><i class="fa fa-envelope" style="font-size: 1.75em;"></i></a>
+				</div>
+	
+				<!-- phone -->
+				<div class="col-12 col-md-3">
+					<a href="tel:321-287-2174" class="link-item"><i class="fa fa-phone" style="font-size: 1.75em;"></i></a>
+				</div>
 
-            <div class="links row">
+			</div> <!-- row -->
 
-                <!-- github -->
-                <a href="https://github.com/RyanBirch" target="_blank">
-                    <div class="col s12 m3 link-item">
-                        <h3>Github</h3>
-                    </div>
-                </a>
-                <!-- linkedin -->
-                <a href="https://www.linkedin.com/in/ryan-birch-61926a180/" target="_blank">
-                    <div class="col s12 m3 link-item">
-                        <h3>LinkedIn</h3>
-                    </div>
-                </a>
-                <!-- email -->
-                <a href="mailto: ryan.birch@gmail.com">
-                    <div class="col s12 m3 link-item">
-                        <h4 style="font-size: 5em; margin: 0;">&#9993;</h4>ryan.birch@gmail.com
-                    </div>
-                </a>
-                <!-- phone -->
-                <a href="tel:321-287-2174">
-                    <div class="col s12 m3 link-item">
-                        <h4 style="font-size: 5em; margin: 0;">&#9743;</h4>321-287-2174
-                    </div>
-                </a>
+		</div> <!-- contact -->
 
-            </div> <!-- links row -->
+	</div> <!-- container -->
 
-        </div> <!-- contact -->
 
-    </div> <!-- container -->
-
-    
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Materialize JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        // initialize mobile nav dropdown
-        $(document).ready(function(){
-            $('.sidenav').sidenav().on('click tap', 'li a', () => {
-                $('.sidenav').sidenav('close')
-            })
-
-            $('.sidenav').sidenav({
-                draggable: true
-            })
-        })
-    </script>
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+	<script>
+		$('.navbar-nav>li>a').on('click', function() {
+			$('.navbar-collapse').collapse('hide')
+		})
+	</script>
 </body>
+
 </html>
