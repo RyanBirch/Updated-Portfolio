@@ -26,10 +26,6 @@ nav {
 .welcome-text {
 	color: #fff;
 	text-align: center;
-	/* display: flex;
-    align-items: center;
-    justify-content: center; */
-	/* height: 100%; */
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -63,8 +59,6 @@ nav {
 .project-links a {
 	margin-left: 1em;
 	margin-right: 1em;
-	/* text-decoration: none;
-	color: black; */
 	transition: color 0.5s;
 }
 
@@ -72,10 +66,10 @@ nav {
 	color: #62c0ff;
 }
 
-/* .tile {
-    margin-bottom: 7em;
-    display: inline-block;
-} */
+#resume {
+	margin-top: 3em;
+	text-align: center;
+}
 
 #contact {
 	padding-bottom: 3em;
@@ -94,7 +88,6 @@ nav {
 }
 
 .link-item:hover {
-	/* color: #707070; */
 	color: #62c0ff;
 	text-decoration: none;
 }
